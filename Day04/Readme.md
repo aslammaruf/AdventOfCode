@@ -35,3 +35,8 @@ Given this additional criterion, but still ignoring the range rule, the followin
 How many different passwords within the range given in your puzzle input meet all of the criteria?
 
 Your puzzle input is still 372304-847060.
+
+<details>
+  <summary>Answer</summary>
+    Your puzzle answer was 297.
+</details>
