@@ -1,8 +1,8 @@
-f = open("Day05/test2.txt", "r")
+f = open("Day05/input.txt", "r")
 IntCode_Arr = f.readline().split(",")
 
 x, opCode = (0, 0)
-Input_ID = 5
+Input_ID = input("Enter Input Value : ")
 
 def split_Opcode(num):
     op = abs(num) % 100
@@ -29,7 +29,7 @@ while int(opCode) != 99 or x == len(IntCode_Arr):
         IntCode_Arr[ int(IntCode_Arr[x + 1]) ] = Input_ID
         x += 2
     elif opCode == 4:
-        print( IntCode_Arr[ int(IntCode_Arr[x + 1]) ] )
+        print( get_value(c, x+1) )
         x += 2
     elif opCode == 5:
         if get_value(c, x+1) != 0:
