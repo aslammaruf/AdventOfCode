@@ -1,5 +1,10 @@
 # 2019 Advent of Code
 
-Current Stars : 10
+This is my repository for [Advent of Code 2019](https://adventofcode.com/2019)
 
-I decided to use this challenge as a way to learn python
+I decided to use these puzzle as a way to learn python, and improve my programming skills
+
+## Current Progress
+
+Number of stars : 10 :star:
+
