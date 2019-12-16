@@ -1,9 +1,3 @@
-import math
-
-""" 
-    Check 1 - Validates digits don't decrease in value
-    Check 2 - Checks to see if there is a double within the number
-"""
 passwd_len = 6
 accept_passwd = []
 
@@ -26,11 +20,10 @@ def Check2():
                 return True
                 
 
-for passwd in range(372304,847060):
+for passwd in range(134792,675810):
     passwd_arr = list(str(passwd))
     decreasingValue = Check1()
     if decreasingValue == True:
         accept_passwd.append(passwd)
 
-print(accept_passwd)
 print("Number of Acceptable Passwd : ", len(accept_passwd))

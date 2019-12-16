@@ -1,5 +1,3 @@
-import math
-
 passwd_len = 6
 accept_passwd = []
 
@@ -22,5 +20,5 @@ for passwd in range(372304,847060):
     if decreasingValue == True and doubleValue == True:
         accept_passwd.append(passwd)
 
-#print(accept_passwd)
+
 print("Number of Acceptable Passwd : ", len(accept_passwd))

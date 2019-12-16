@@ -6,5 +6,5 @@ I decided to use these puzzle as a way to learn python, and improve my programmi
 
 ## Current Progress
 
-Number of stars : 10 :star:
+Number of stars : 12 :star:
 
