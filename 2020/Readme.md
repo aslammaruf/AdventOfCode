@@ -1,8 +1,8 @@
 # 2020 Advent of Code
 
-This is my repository for [Advent of Code 2019](https://adventofcode.com/2020)
+This is the subfolder for [Advent of Code 2020](https://adventofcode.com/2020)
 
 ## Current Progress
 
-Number of stars : 12 :star:
+Number of stars : 2 :star:
 
