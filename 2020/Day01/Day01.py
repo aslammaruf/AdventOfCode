@@ -6,13 +6,18 @@ def ReportRepair( arr ):
     return *arr[a], *arr[b]
 
 def ReportRepairP2( arr ):
-    comb = list(combinations( arr, 3))
-    combsum = np.sum(np.array(comb), 1)
-    y =  int(*np.where(combsum == 2020))
+    # Create a list of all possible combinations
+    # Sum up every row of the list
+    # get Index of where the sum is equal to 2020
+    # Return row
+    comb = list(combinations( arr, 3 ))
+    combsum = np.sum( np.array(comb), 1 )
+    y =  int( *np.where( combsum == 2020 )) 
     return comb[y]
 
 
 with open("Day01/input.txt") as f:
+    # Create Numpy Array of numbers from input file
     arr = np.array( [int(line) for line in f] )
 
 a,b = ReportRepair( arr )
