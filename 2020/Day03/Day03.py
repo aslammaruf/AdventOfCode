@@ -20,7 +20,9 @@ def TobogganTrajectory( arr, rowIncrement, colIncrement ):
 with open('Day03/input.txt') as f:
     arr = [ list(line.strip()) for line in f ]
 
-print( f'Part 1 result : { TobogganTrajectory( arr , 1 , 3 ) }') 
-
 slopeList = [[1,1], [1,3], [1,5], [1,7], [2,1]]
+
+print( f'Part 1 result : { TobogganTrajectory( arr , 1 , 3 ) }') 
 print( f'Part 2 result : { math.prod([ TobogganTrajectory( arr, down , right ) for down, right in slopeList ]) }')
+
+print( [ TobogganTrajectory( arr, down , right ) for down, right in slopeList ] )
