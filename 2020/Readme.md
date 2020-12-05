@@ -8,8 +8,8 @@ Current number of stars : 8 :star:
 
 | <center>Task</center>                          | <center>Completed</center>          |
 |------------------------------------------------|-------------------------------------|
-| [Day 1 : Report Repair](Day01/Day01.py)        | <center>:heavy_check_mark:</center> |
-| [Day 2 : Password Philosphy](Day02/Day02.py)   | <center>:heavy_check_mark:</center> |
-| [Day 3 : Toboggan Trajectory](Day03/Day03.py)  | <center>:heavy_check_mark:</center> |
-| [Day 4 : Passport Processing](Day04/Day04.py)  | <center>:heavy_check_mark:</center> |
-| [Day 5 : ]()  |
+| [Day 1 : Report Repair](Day01/Day01.py)        | :heavy_check_mark:                  |
+| [Day 2 : Password Philosphy](Day02/Day02.py)   | :heavy_check_mark:                  |
+| [Day 3 : Toboggan Trajectory](Day03/Day03.py)  | :heavy_check_mark:                  |
+| [Day 4 : Passport Processing](Day04/Day04.py)  | :heavy_check_mark:                  |
+| [Day 5 : Binary Boarding](Day05/Day05.py)      | :heavy_check_mark:                  |
