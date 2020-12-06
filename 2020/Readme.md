@@ -2,9 +2,11 @@
 
 This is the subfolder for [Advent of Code 2020](https://adventofcode.com/2020)
 
-Current number of stars : 8 :star:
+After Completing each task, if i find a more efficent way i will create a _Bettersolutions file for future reference
 
 ## Current Progress
+
+Current number of stars : 12 :star:
 
 | <center>Task</center>                          | <center>Completed</center>          |
 |------------------------------------------------|-------------------------------------|
@@ -13,3 +15,4 @@ Current number of stars : 8 :star:
 | [Day 3 : Toboggan Trajectory](Day03/Day03.py)  | :heavy_check_mark:                  |
 | [Day 4 : Passport Processing](Day04/Day04.py)  | :heavy_check_mark:                  |
 | [Day 5 : Binary Boarding](Day05/Day05.py)      | :heavy_check_mark:                  |
+| [Day 6 : Custom Customs](Day06/Day06.py)       | :heavy_check_mark:                  |
