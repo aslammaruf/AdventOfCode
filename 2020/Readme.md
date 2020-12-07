@@ -16,3 +16,4 @@ Current number of stars : 12 :star:
 | [Day 4 : Passport Processing](Day04/Day04.py)  | :heavy_check_mark:                  |
 | [Day 5 : Binary Boarding](Day05/Day05.py)      | :heavy_check_mark:                  |
 | [Day 6 : Custom Customs](Day06/Day06.py)       | :heavy_check_mark:                  |
+| [Day 7 : Handy Haversacks](Day07/Day07.py)     | :heavy_check_mark:                  |
