@@ -1,6 +1,3 @@
-filename = "Day08/input.txt"
-arr = [ line.split() for line in open( filename ).read().split('\n')]
-
 def HandheldHalting():
     # Set local variable : i is Index, looped is a 0,1 bool, accumulator is the result, closedlist stores arr index that have been run
     i = looped = accumulator = 0
@@ -19,11 +16,12 @@ def HandheldHalting():
 
 def HandheldHaltingP2():
     # Set local variable : i is Index, looped is a 0,1 bool, accumulator is the result, closedlist stores arr index that have been run
+    # changeList contains all 'nop' and 'jmp' index location
+    # change the first nop or jmp
+
     i = x = accumulator = 0
     closedList = []
-    # changeList contains all 'nop' and 'jmp' index location
     changeList = [ i for i, instruction in enumerate( arr ) if instruction[0] == "nop" or instruction[0] == "jmp"]
-    # change the first nop or jmp
     arr[ changeList[x] ][0] = "nop" if arr[ changeList[x] ][0] == "jmp" else "jmp"
 
     while i < len( arr ):
@@ -52,6 +50,11 @@ def runInstruction( i , accumulator ):
         i += int( arr[i][1] )
 
     return i , accumulator
+
+# Main
+
+filename = "Day08/input.txt"
+arr = [ line.split() for line in open( filename ).read().split('\n')]
 
 print( f'Part 1 answer : {HandheldHalting()}')
 print( f'Part 2 answer : {HandheldHaltingP2()}')

@@ -1,6 +1,3 @@
-filename = 'Day06/input.txt'
-arr = [ line.split('\n') for line in open( filename ).read().split('\n\n')]
-
 def CustomCustoms( arr ):
     # Converts group into a list of letters, then converts list into set to remove all duplicates
     return sum([ len( set( "".join( group )) ) for group in arr ])
@@ -14,6 +11,11 @@ def CustomCustomsP2( arr ):
         lenGroup = len( arr[i] )
         count += len([ letter for letter in set(group) if group.count( letter ) == lenGroup ])
     return count
+
+# Main
+
+filename = 'Day06/input.txt'
+arr = [ line.split('\n') for line in open( filename ).read().split('\n\n')]
 
 print(f'Part 1 result : {CustomCustoms( arr )}')
 print(f'Part 2 result : {CustomCustomsP2( arr )}')

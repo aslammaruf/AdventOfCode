@@ -10,6 +10,7 @@ def TobogganTrajectory( arr, rowIncrement, colIncrement ):
             treeEncounter += 1
 
         row += rowIncrement
+        # col = ( col + colIncrement ) % colBound
         col += colIncrement 
 
         if col >= colBound:

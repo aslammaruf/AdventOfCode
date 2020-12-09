@@ -55,7 +55,6 @@ def PassportProcessing( arr ):
                 elif field == 'pid' and len(data) == 9 and checkInt( data ):
                     currentpassport.append( field )
 
-
         currentpassport.sort()
 
         if currentpassport == validCheck:

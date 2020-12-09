@@ -1,3 +1,4 @@
+import time
 import numpy as np
 from itertools import combinations
 
@@ -16,7 +17,7 @@ def ReportRepairP2( arr ):
     return comb[y]
 
 
-with open("Day01/input.txt") as f:
+with open("Day01/ozInput.txt") as f:
     # Create Numpy Array of numbers from input file
     arr = np.array( [int(line) for line in f] )
 
@@ -27,6 +28,9 @@ print(f'Part 1: Product of the 2 entries are \n {a * b}')
 
 a, b, c = ReportRepairP2( arr )
 
+start_time = time.time()
 
 print(f'Part 2: 3 Entries that sum to 2020 are {a} , {b} and {c}')
 print(f'Part 2: Product of the 2 entries are \n {a * b * c}')
+
+print("--- %s seconds ---" % (time.time() - start_time))
