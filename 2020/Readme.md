@@ -6,7 +6,7 @@ After Completing each task, if i find a more efficent way i will create a _Bette
 
 ## Current Progress
 
-Current number of stars : 18 :star:
+Current number of stars : 21 :star:
 
 | <center>Task</center>                          | <center>Completed</center>          |
 |------------------------------------------------|-------------------------------------|
@@ -19,4 +19,6 @@ Current number of stars : 18 :star:
 | [Day 7 : Handy Haversacks](Day07/Day07.py)     | :heavy_check_mark:                  |
 | [Day 8 : Handheld Halting](Day08/Day08.py)     | :heavy_check_mark:                  |
 | [Day 9 : Encoding Error](Day09/Day09.py)       | :heavy_check_mark:                  |
-| [Day 10: TBA]()                                |                                     |
+| [Day 10: Adapter Array](Day10/Day10.py)        | P1 Completed                        |
+| [Day 11: Seating System](Day11/Day11.py)       | :heavy_check_mark:                  |
+| [Day 12: TBA]()                                |                                     |
