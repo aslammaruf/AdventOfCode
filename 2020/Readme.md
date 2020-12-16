@@ -21,4 +21,8 @@ Current number of stars : 21 :star:
 | [Day 9 : Encoding Error](Day09/Day09.py)       | :heavy_check_mark:                  |
 | [Day 10: Adapter Array](Day10/Day10.py)        | P1 Completed                        |
 | [Day 11: Seating System](Day11/Day11.py)       | :heavy_check_mark:                  |
-| [Day 12: TBA]()                                |                                     |
+| [Day 12: Rain Risk](Day12/Day12.py)            | :heavy_check_mark:                  |
+| [Day 13: Shuttle Search](Day13/Day13.py)       | P1 Completed                        |
+| [Day 14: Docking Data](Day14/Day14.py)         | :heavy_check_mark:                  |
+| [Day 15: Rambunctious Recitation](Day15/Day15.py) | :heavy_check_mark:               |
+| [Day 16: Ticket Translation](Day16/Day16.py)   | :heavy_check_mark:                  |
