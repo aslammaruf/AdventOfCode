@@ -6,14 +6,14 @@ After Completing each task, if i find a more efficent way i will create a _Bette
 
 ## Current Progress
 
-Current number of stars : 0 :star:
+Current number of stars : 14 :star:
 
 | <center>Task</center>                          | <center>Completed</center>          |
 |------------------------------------------------|-------------------------------------|
 | [Day 1 : Sonar Sweep](Day01/Day01.py)          | :heavy_check_mark:                  |
-| [Day 2 : Sonar Sweep](Day02/Day02.py)          | :heavy_check_mark:                  |
-| [Day 3 : Sonar Sweep](Day03/Day03.py)          | :heavy_check_mark:                  |
-| [Day 4 : Sonar Sweep](Day04/Day04.py)          | :heavy_check_mark:                  |
-| [Day 5 : Sonar Sweep](Day05/Day05.py)          | :heavy_check_mark:                  |
-| [Day 6 : Sonar Sweep](Day06/Day06.py)          | :heavy_check_mark:                  |
-| [Day 7 : The Treachery of Whales](Day07/Day07.py)          | :heavy_check_mark:                  |
+| [Day 2 : Dive!](Day02/Day02.py)                | :heavy_check_mark:                  |
+| [Day 3 : Binary Diagnostic](Day03/Day03.py)    | :heavy_check_mark:                  |
+| [Day 4 : Giant Squid](Day04/Day04.py)          | :heavy_check_mark:                  |
+| [Day 5 : Hydrothermal Venture](Day05/Day05.py) | :heavy_check_mark:                  |
+| [Day 6 : Lanternfish](Day06/Day06.py)          | :heavy_check_mark:                  |
+| [Day 7 : The Treachery of Whales](Day07/Day07.py)| :heavy_check_mark:                  |
